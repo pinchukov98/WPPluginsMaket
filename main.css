@@ -1,3 +1,96 @@
 header {
-    background-color: aqua;
+    background-color: #fff;
+    justify-items: center;
+    width: 600;
+    height: 80;
+
 }
+.header {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.create-line {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 3px solid #F3F3F3;
+}
+
+.title1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0% 30px;
+    color: black;
+    margin-left: 10%;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+
+.card-image {
+    border-radius: 7px;
+    width: 260px;
+    height: 260px;
+    display: block;
+    margin: 0 !important; /* Принудительно убираем все отступы */
+    padding: 0 !important;
+    vertical-align: bottom; /* Убирает подстрочный отступ */
+}
+
+.card_name{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 10px 0 0 0 ;
+    padding: 0;   
+}
+
+.card_price {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #489DFF;
+    margin: 7px 0 0 0; 
+}
+
+.buy {
+    width: 131px;
+    height: 48px;
+    color: #fff;
+    background-color: #489DFF;
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    margin-top: 13px;
+}
+
+.card {
+    margin: 0 0 0 10px;
+}
+
+footer {
+    
+
+}
+
+  
