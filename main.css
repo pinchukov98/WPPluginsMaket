@@ -88,9 +88,36 @@ header {
     margin: 0 0 0 10px;
 }
 
-footer {
+.text2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #525F7F;
     
-
 }
 
-  
+.text3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #525F7F;
+}
+
+.container_block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;   
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;     /* Центрирование по вертикали (если нужно) */
+    gap: 15px;              /* Отступ между картинками */
+    padding: 20px 20px;       /* Отступ сверху и снизу */
+}
+
+.img footer {
+    max-width: 100%;
+    width: 18;
+    height: 18;
+}
